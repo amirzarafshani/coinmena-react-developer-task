@@ -1,0 +1,14 @@
+header {
+  @apply h-16 flex items-center justify-between border-b border-gray-200 px-10 bg-white fixed w-full top-0 z-50;
+}
+
+.navigation {
+  @apply flex items-center gap-5;
+
+  .nav-item {
+    @apply text-black;
+    &.active {
+      @apply text-blue-500 font-bold;
+    }
+  }
+}
